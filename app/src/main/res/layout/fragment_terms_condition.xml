@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
+    android:background="@color/teal_200"
     tools:context=".TermsConditionFragment">
 
     <!-- TODO: Update blank fragment layout -->
@@ -12,7 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
+        android:fontFamily="@font/bell"
         android:text="@string/term_conditions"
-        android:textSize="24sp"/>
+        android:textSize="52sp"/>
 
 </LinearLayout>
